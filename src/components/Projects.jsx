@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <section className="bg-dark pb-40" id="project">
       <div className="bg-primary-400 lg:mx-16 mx-5 pb-20 pt-10 sm:rounded-b-[100px] rounded-b-[50px] px-10">
-        <h1 className="lg:text-8xl sm:text-5xl text-3xl font-bold  text-center">
+        <h1 className="lg:text-8xl sm:text-5xl text-3xl font-bold  text-center font-montserrat">
           MY PROJECTS
         </h1>
       </div>

@@ -11,8 +11,10 @@ const ProjectCard = ({ image = "", title, year, link }) => {
         />
       </div>
       <div className="p-5 group-hover:bg-[#000000c0] absolute top-0 left-0 w-full h-full flex flex-col justify-end transition-transform transform translate-y-full group-hover:translate-y-0 duration-1000">
-        <span className="text-4xl text-white light">{year}</span>
-        <h1 className="text-6xl font-semibold text-white">{title}</h1>
+        <span className="text-4xl text-white font-montserrat">{year}</span>
+        <h1 className="text-6xl font-semibold text-white font-montserrat">
+          {title}
+        </h1>
       </div>
       {/* "Visit" link */}
       <a

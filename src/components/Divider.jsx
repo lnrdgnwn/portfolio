@@ -21,10 +21,10 @@ const Divider = () => {
   return (
     <div className="w-full overflow-hidden whitespace-nowrap bg-darkgrey py-7">
       <div
-        className="text-xl sm:text-3xl md:text-5xl font-semibold text-primary-400 flex items-center gap-10"
+        className="font-montserrat text-xl sm:text-3xl md:text-5xl font-semibold text-primary-400 flex items-center gap-10"
         style={{
           transform: `translateX(-${translateX}px)`,
-          transition: "transform 0.1s linear", 
+          transition: "transform 0.1s linear",
         }}
       >
         {[

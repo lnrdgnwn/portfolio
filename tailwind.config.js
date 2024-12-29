@@ -4,14 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        generalsans: [
-          "generalsans-light",
-          "generalsans-regular",
-          "generalsans-medium",
-          "generalsans-semibold",
-          "generalsans-bold",
-          "sans-serif",
-        ],
+        montserrat: ["Montserrat", "sans-serif"],
       },
       colors: {
         primary: {

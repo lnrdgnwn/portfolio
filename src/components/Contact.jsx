@@ -15,10 +15,10 @@ const Contact = () => {
 
         {/* Text and Form Section */}
         <div className="lg:w-2/3 w-full flex flex-col items-center lg:items-start">
-          <h2 className="text-4xl font-semibold text-dark mb-4">
+          <h2 className="text-4xl font-semibold text-dark mb-4 font-montserrat">
             Let's Get to Know Each Other
           </h2>
-          <p className="text-lg text-dark mb-8 ">
+          <p className="text-lg text-dark mb-8 font-montserrat">
             I'm always open to new opportunities and collaborations. Let’s talk
             about how we can work together!
           </p>
@@ -31,7 +31,7 @@ const Contact = () => {
           >
             <button
               type="submit"
-              className="w-full py-4 text-2xl text-white bg-dark rounded-lg hover:bg-primary-600 transition duration-300"
+              className="w-full py-4 text-2xl text-white font-montserrat bg-dark rounded-lg hover:bg-primary-600 transition duration-300"
             >
               Contact Me!
             </button>

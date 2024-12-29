@@ -100,11 +100,14 @@ const Hero = () => {
             className="fixed inset-0 z-50 flex items-center justify-center bg-black"
           >
             <div ref={loadingTextRef} className="w-4/5 text-white">
-              <h1 className="font-bold sm:text-8xl text-6xl">
+              <h1 className="font-bold sm:text-8xl text-6xl font-montserrat">
                 WELCOME TO MY
                 <br />
                 PORTFOLIO <br />
-                <span className="light opacity-50">FROM</span> LEONARDO!
+                <span className="light opacity-50 font-montserrat">
+                  FROM
+                </span>{" "}
+                LEONARDO!
               </h1>
             </div>
           </div>
@@ -114,7 +117,7 @@ const Hero = () => {
             ref={heroTextRef}
             className="bold sm:text-8xl text-center text-6xl"
           >
-            <div>{greeting.toUpperCase()}</div>
+            <div className="font-montserrat">{greeting.toUpperCase()}</div>
           </h1>
         </div>
         <div>
