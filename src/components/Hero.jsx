@@ -82,14 +82,13 @@ const Hero = () => {
         });
     };
 
-    // Mengupdate greeting setiap detik untuk menampilkan ucapan dalam berbagai bahasa
     let index = 0;
     const interval = setInterval(() => {
       setGreeting(greetings[index]);
       index = (index + 1) % greetings.length;
-    }, 1000); // Update greeting setiap 1 detik
+    }, 1000);
 
-    return () => clearInterval(interval); // Membersihkan interval saat komponen unmount
+    return () => clearInterval(interval);
   }, []);
 
   return (
