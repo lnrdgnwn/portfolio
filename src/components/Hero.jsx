@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
-import Robot3D from "./Robot3d";
+import Robot3D from "./Robot3D";
 import { gsap } from "gsap";
 
 const Hero = () => {
   const [loading, setLoading] = useState(true);
-  const [greeting, setGreeting] = useState(""); // Menambahkan state untuk greeting
+  const [greeting, setGreeting] = useState("");
   const overlayRef = useRef(null);
   const loadingTextRef = useRef(null);
   const heroTextRef = useRef(null);
